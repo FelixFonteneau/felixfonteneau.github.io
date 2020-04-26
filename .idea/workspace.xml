@@ -1,32 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1fdc923e-9052-40c9-a3b0-bfb3c77b7556" name="Default Changelist" comment="">
+    <list default="true" id="1fdc923e-9052-40c9-a3b0-bfb3c77b7556" name="Default Changelist" comment="add profil page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/normalize.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/TOC.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/css.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/extend.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/faq.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/html.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/js.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/misc.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/usage.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/plugins.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/vendor/jquery-3.4.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/vendor/modernizr-3.8.0.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minesweeper/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minesweeper/static/css/app.654275b67fde66bd38a14d15941ac2f9.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minesweeper/static/css/app.654275b67fde66bd38a14d15941ac2f9.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minesweeper/static/js/app.38f144ed65a769d6c4fa.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minesweeper/static/js/app.38f144ed65a769d6c4fa.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minesweeper/static/js/manifest.2ae2e69a05c33dfc65f8.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minesweeper/static/js/manifest.2ae2e69a05c33dfc65f8.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minesweeper/static/js/vendor.6f27ac2eb5b55d7eb5db.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minesweeper/static/js/vendor.6f27ac2eb5b55d7eb5db.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mines/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mines/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +48,7 @@
       <updated>1587758581285</updated>
       <workItem from="1587758586480" duration="719000" />
       <workItem from="1587807883767" duration="13000" />
-      <workItem from="1587916273163" duration="4128000" />
+      <workItem from="1587916273163" duration="4578000" />
     </task>
     <task id="LOCAL-00001" summary="change image">
       <created>1587759267035</created>
@@ -100,7 +78,21 @@
       <option name="project" value="LOCAL" />
       <updated>1587916893776</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add profil page">
+      <created>1587930181765</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1587930181765</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add profil page">
+      <created>1587930310995</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1587930310995</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,6 +115,7 @@
     <MESSAGE value="change image" />
     <MESSAGE value="minesweeper" />
     <MESSAGE value="minesweeper fix links" />
-    <option name="LAST_COMMIT_MESSAGE" value="minesweeper fix links" />
+    <MESSAGE value="add profil page" />
+    <option name="LAST_COMMIT_MESSAGE" value="add profil page" />
   </component>
 </project>
