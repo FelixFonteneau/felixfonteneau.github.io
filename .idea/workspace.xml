@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1fdc923e-9052-40c9-a3b0-bfb3c77b7556" name="Default Changelist" comment="add profil page">
+    <list default="true" id="1fdc923e-9052-40c9-a3b0-bfb3c77b7556" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mines/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mines/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mines/static/css/app.e28c202b869ea5fd762ccbd27d94a471.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mines/static/css/app.e28c202b869ea5fd762ccbd27d94a471.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mines/static/js/app.5da32ffcf2ae4fd8deda.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mines/static/js/app.5da32ffcf2ae4fd8deda.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mines/static/js/manifest.2ae2e69a05c33dfc65f8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mines/static/js/manifest.2ae2e69a05c33dfc65f8.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mines/static/js/vendor.6f27ac2eb5b55d7eb5db.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mines/static/js/vendor.6f27ac2eb5b55d7eb5db.js.map" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +56,8 @@
       <updated>1587758581285</updated>
       <workItem from="1587758586480" duration="719000" />
       <workItem from="1587807883767" duration="13000" />
-      <workItem from="1587916273163" duration="4578000" />
+      <workItem from="1587916273163" duration="4744000" />
+      <workItem from="1587975954822" duration="2227000" />
     </task>
     <task id="LOCAL-00001" summary="change image">
       <created>1587759267035</created>
@@ -92,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587930310995</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="fix titles index">
+      <created>1587932460401</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1587932460402</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,6 +132,7 @@
     <MESSAGE value="minesweeper" />
     <MESSAGE value="minesweeper fix links" />
     <MESSAGE value="add profil page" />
-    <option name="LAST_COMMIT_MESSAGE" value="add profil page" />
+    <MESSAGE value="fix titles index" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix titles index" />
   </component>
 </project>
