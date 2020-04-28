@@ -3,6 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="1fdc923e-9052-40c9-a3b0-bfb3c77b7556" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mines/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mines/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mines/static/css/app.12dccc0ac4dcab588ca65258e57f3663.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mines/static/css/app.12dccc0ac4dcab588ca65258e57f3663.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mines/static/js/app.62ce9a895a7884a25937.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mines/static/js/app.62ce9a895a7884a25937.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mines/static/js/manifest.4736e20c9b6116d7fa35.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/mines/static/js/manifest.4736e20c9b6116d7fa35.js.map" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +53,7 @@
       <workItem from="1587758586480" duration="719000" />
       <workItem from="1587807883767" duration="13000" />
       <workItem from="1587916273163" duration="4744000" />
-      <workItem from="1587975954822" duration="2762000" />
+      <workItem from="1587975954822" duration="3070000" />
     </task>
     <task id="LOCAL-00001" summary="change image">
       <created>1587759267035</created>
