@@ -11,6 +11,22 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <style>
+      .project-text{
+        text-align: center;
+        font-size: 0.9em;
+        text-transform: none;
+        list-style: none;
+      }
+      .project-text li {
+        margin: 1.8em;
+      }
+      .small-hr {
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    </style>
 	</head>
 	<body class="is-preload">
   <!--[if IE]>
@@ -29,21 +45,50 @@
 						</header>
 
 						<hr />
-						<p>My computer science projects</p>
-            <ul>
+
+
+            <ul class="icons">
+              <li><a href="https://github.com/FelixFonteneau" class="icon brands fa-github">Github</a></li>
+              <li><a href="https://www.linkedin.com/in/f%C3%A9lix-fonteneau-1b9b9b197/" class="icon brands fa-linkedin">LinkedIn</a></li>
+              <li><a href="https://www.instagram.com/felix_el_gato_negroo/" class="icon brands fa-instagram">Instagram</a></li>
+            </ul>
+
+            <hr />
+						<p style="text-transform: none; font-size: 1.2em">Some of my computer science projects :</p>
+            <ul class="project-text">
               <li>
-                <a href="mines">Minesweeper</a>
+                Minesweeper web game in Vue.js
+                <div style="text-align: center">
+                  <a href="mines" class="icon solid fa-desktop"> Test it</a>
+                  &nbsp;&nbsp;&nbsp;<a href="https://github.com/FelixFonteneau/mines" class="icon solid fa-code"> Source</a>
+                </div>
+
+              </li>
+              <hr class="small-hr">
+              <li>
+                Tri Select'IF, an android game for children to learn selective sorting
+                <div style="text-align: center">
+                  <a href="https://hexanome-thermopropulsif.gitlab.io/tri-selectif/" class="icon solid fa-globe"> Learn more</a>
+                </div>
+              </li>
+              <hr class="small-hr">
+
+              <li>
+                IFCC, a C language compiler implemented in C++ with Antlr4
+                <div style="text-align: center">
+                  <a href="https://github.com/FelixFonteneau/PLD-COMP" class="icon solid fa-code"> Source</a>
+                </div>
+              </li>
+              <hr class="small-hr">
+
+              <li>
+                Jazz Suite, a jazz search engine using Sparql and dbpedia
+                <div style="text-align: center">
+                  <a href="jazz-suite" class="icon solid fa-desktop"> Test it</a>
+                  <a href="https://github.com/lucas-barbero/WS" class="icon solid fa-code"> Source</a>
+                </div>
               </li>
             </ul>
-						<hr />
-
-						<footer>
-							<ul class="icons">
-                <li><a href="https://github.com/FelixFonteneau" class="icon brands fa-github">Github</a></li>
-                <li><a href="https://www.linkedin.com/in/f%C3%A9lix-fonteneau-1b9b9b197/" class="icon brands fa-linkedin">LinkedIn</a></li>
-								<li><a href="https://www.instagram.com/felix_el_gato_negroo/" class="icon brands fa-instagram">Instagram</a></li>
-              </ul>
-						</footer>
 					</section>
 
 				<!-- Footer -->

@@ -1,16 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="1fdc923e-9052-40c9-a3b0-bfb3c77b7556" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/jazz-suite/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jazz-suite/album.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jazz-suite/artist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jazz-suite/doc/TOC.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jazz-suite/doc/css.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jazz-suite/doc/extend.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jazz-suite/doc/faq.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jazz-suite/doc/html.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jazz-suite/doc/js.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jazz-suite/doc/misc.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jazz-suite/doc/usage.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jazz-suite/genre.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jazz-suite/humans.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jazz-suite/img/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jazz-suite/img/2menjazz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jazz-suite/img/JUL.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jazz-suite/img/background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jazz-suite/img/jazz_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jazz-suite/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jazz-suite/lib/autocomplete/js/bloodhound.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jazz-suite/lib/autocomplete/js/bootstrap3-typeahead.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jazz-suite/src/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jazz-suite/src/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jazz-suite/src/js/album.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jazz-suite/src/js/artist.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jazz-suite/src/js/genre.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jazz-suite/src/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jazz-suite/src/js/plugins.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jazz-suite/src/js/sparqlQuery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jazz-suite/src/js/vendor/jquery-3.4.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jazz-suite/src/js/vendor/modernizr-3.7.1.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mines/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mines/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mines/static/css/app.12dccc0ac4dcab588ca65258e57f3663.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mines/static/css/app.12dccc0ac4dcab588ca65258e57f3663.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mines/static/js/app.62ce9a895a7884a25937.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mines/static/js/app.62ce9a895a7884a25937.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mines/static/js/manifest.4736e20c9b6116d7fa35.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/mines/static/js/manifest.4736e20c9b6116d7fa35.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,24 +66,24 @@
   </component>
   <component name="ProjectId" id="1b0ALZDqQd16E33o6iKYoByHJZ4" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/jazz-suite" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/jazz-suite" />
+      <recent name="$PROJECT_DIR$/images" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -54,6 +99,8 @@
       <workItem from="1587807883767" duration="13000" />
       <workItem from="1587916273163" duration="4744000" />
       <workItem from="1587975954822" duration="3070000" />
+      <workItem from="1591376344735" duration="49000" />
+      <workItem from="1591376407862" duration="9326000" />
     </task>
     <task id="LOCAL-00001" summary="change image">
       <created>1587759267035</created>
@@ -115,20 +162,19 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="change image" />
@@ -138,5 +184,23 @@
     <MESSAGE value="fix titles index" />
     <MESSAGE value="test mines" />
     <option name="LAST_COMMIT_MESSAGE" value="test mines" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="659" y="355" width="646" height="417" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591382246240">
+      <screen x="60" y="27" width="1860" height="1053" />
+    </state>
+    <state x="659" y="355" width="646" height="417" key="#com.intellij.fileTypes.FileTypeChooser/60.27.1860.1053@60.27.1860.1053" timestamp="1591382246240" />
+    <state x="481" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1591376394054">
+      <screen x="64" y="27" width="1856" height="1053" />
+    </state>
+    <state x="481" y="188" width="1022" height="737" key="SettingsEditor/64.27.1856.1053@64.27.1856.1053" timestamp="1591376394054" />
+    <state x="761" y="468" width="458" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591392151114">
+      <screen x="60" y="27" width="1860" height="1053" />
+    </state>
+    <state x="761" y="468" width="458" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/60.27.1860.1053@60.27.1860.1053" timestamp="1591392151114" />
+    <state x="654" y="252" key="run.anything.popup" timestamp="1591387048319">
+      <screen x="60" y="27" width="1860" height="1053" />
+    </state>
+    <state x="654" y="252" key="run.anything.popup/60.27.1860.1053@60.27.1860.1053" timestamp="1591387048319" />
   </component>
 </project>
