@@ -19,42 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1fdc923e-9052-40c9-a3b0-bfb3c77b7556" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/jazz-suite/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jazz-suite/album.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jazz-suite/artist.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jazz-suite/doc/TOC.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jazz-suite/doc/css.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jazz-suite/doc/extend.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jazz-suite/doc/faq.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jazz-suite/doc/html.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jazz-suite/doc/js.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jazz-suite/doc/misc.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jazz-suite/doc/usage.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jazz-suite/genre.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jazz-suite/humans.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jazz-suite/img/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jazz-suite/img/2menjazz.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jazz-suite/img/JUL.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jazz-suite/img/background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jazz-suite/img/jazz_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jazz-suite/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jazz-suite/lib/autocomplete/js/bloodhound.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jazz-suite/lib/autocomplete/js/bootstrap3-typeahead.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jazz-suite/src/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jazz-suite/src/css/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jazz-suite/src/js/album.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jazz-suite/src/js/artist.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jazz-suite/src/js/genre.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jazz-suite/src/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jazz-suite/src/js/plugins.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jazz-suite/src/js/sparqlQuery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jazz-suite/src/js/vendor/jquery-3.4.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jazz-suite/src/js/vendor/modernizr-3.7.1.min.js" afterDir="false" />
+    <list default="true" id="1fdc923e-9052-40c9-a3b0-bfb3c77b7556" name="Default Changelist" comment="add project, change background, add web sementique">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jazz-suite/album.html" beforeDir="false" afterPath="$PROJECT_DIR$/jazz-suite/album.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jazz-suite/artist.html" beforeDir="false" afterPath="$PROJECT_DIR$/jazz-suite/artist.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jazz-suite/genre.html" beforeDir="false" afterPath="$PROJECT_DIR$/jazz-suite/genre.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jazz-suite/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/jazz-suite/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +33,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
   <component name="ProjectId" id="1b0ALZDqQd16E33o6iKYoByHJZ4" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -100,7 +71,8 @@
       <workItem from="1587916273163" duration="4744000" />
       <workItem from="1587975954822" duration="3070000" />
       <workItem from="1591376344735" duration="49000" />
-      <workItem from="1591376407862" duration="9326000" />
+      <workItem from="1591376407862" duration="9661000" />
+      <workItem from="1591433944672" duration="465000" />
     </task>
     <task id="LOCAL-00001" summary="change image">
       <created>1587759267035</created>
@@ -158,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588022960960</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add project, change background, add web sementique">
+      <created>1591392295384</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1591392295384</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,7 +162,8 @@
     <MESSAGE value="add profil page" />
     <MESSAGE value="fix titles index" />
     <MESSAGE value="test mines" />
-    <option name="LAST_COMMIT_MESSAGE" value="test mines" />
+    <MESSAGE value="add project, change background, add web sementique" />
+    <option name="LAST_COMMIT_MESSAGE" value="add project, change background, add web sementique" />
   </component>
   <component name="WindowStateProjectService">
     <state x="659" y="355" width="646" height="417" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591382246240">
@@ -194,6 +174,10 @@
       <screen x="64" y="27" width="1856" height="1053" />
     </state>
     <state x="481" y="188" width="1022" height="737" key="SettingsEditor/64.27.1856.1053@64.27.1856.1053" timestamp="1591376394054" />
+    <state x="585" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1591392298330">
+      <screen x="60" y="27" width="1860" height="1053" />
+    </state>
+    <state x="585" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/60.27.1860.1053@60.27.1860.1053" timestamp="1591392298330" />
     <state x="761" y="468" width="458" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591392151114">
       <screen x="60" y="27" width="1860" height="1053" />
     </state>
