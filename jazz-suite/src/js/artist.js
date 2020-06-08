@@ -254,7 +254,7 @@ function setTitle(artist) {
 function sparqlQuery(query) {
   return new Promise(function (resolve, reject) {
 
-    let url = "http://dbpedia.org/sparql";
+    let url = "https://dbpedia.org/sparql";
     const queryUrl = url + "?query=" + encodeURIComponent(query) + "&format=json";
     $.ajax({
       dataType: "json",
@@ -271,7 +271,7 @@ function sparqlQuery(query) {
 
 
 function getRessourceLink(uri) {
-  var a = uri.split("http://dbpedia.org/resource/");
+  var a = uri.split("https://dbpedia.org/resource/");
   if (a.length === 2) {
     return a[1];
   }

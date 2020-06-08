@@ -30,9 +30,9 @@ $(document).ready(function () {
 function verifJazzSubGenre(subGenre) {
   return new Promise(function (resolve) {
     var query = [
-      "PREFIX dbo: <http://dbpedia.org/ontology/>",
-      "PREFIX dbr: <http://dbpedia.org/resource/>",
-      "PREFIX foaf: <http://xmlns.com/foaf/0.1/>\n",
+      "PREFIX dbo: <https://dbpedia.org/ontology/>",
+      "PREFIX dbr: <https://dbpedia.org/resource/>",
+      "PREFIX foaf: <https://xmlns.com/foaf/0.1/>\n",
 
       "select distinct ?relation where {\n",
       "dbr:Jazz ?relation dbr:" + subGenre + "\n.",
@@ -43,7 +43,7 @@ function verifJazzSubGenre(subGenre) {
 
     sparqlQuery(query).then(function (data) {
         data.results.bindings.forEach(element => {
-          if (element.relation.value == "http://dbpedia.org/ontology/musicSubgenre") {
+          if (element.relation.value == "https://dbpedia.org/ontology/musicSubgenre") {
             isJazzSubGenre = true;
             resolve(true);
           }
@@ -57,9 +57,9 @@ function verifJazzSubGenre(subGenre) {
 
 function setName(subGenre) {
   var query = [
-    "PREFIX dbo: <http://dbpedia.org/ontology/>",
-    "PREFIX dbr: <http://dbpedia.org/resource/>",
-    "PREFIX foaf: <http://xmlns.com/foaf/0.1/>",
+    "PREFIX dbo: <https://dbpedia.org/ontology/>",
+    "PREFIX dbr: <https://dbpedia.org/resource/>",
+    "PREFIX foaf: <https://xmlns.com/foaf/0.1/>",
 
     "select distinct ?name where {",
     "dbr:"+subGenre + " foaf:name ?name.",
@@ -76,9 +76,9 @@ function setName(subGenre) {
 
 function setDerives(subGenre) {
   var query = [
-    "PREFIX dbo: <http://dbpedia.org/ontology/>",
-    "PREFIX dbr: <http://dbpedia.org/resource/>",
-    "PREFIX foaf: <http://xmlns.com/foaf/0.1/>",
+    "PREFIX dbo: <https://dbpedia.org/ontology/>",
+    "PREFIX dbr: <https://dbpedia.org/resource/>",
+    "PREFIX foaf: <https://xmlns.com/foaf/0.1/>",
 
     "select distinct ?name ?genreDerives ?wikiLink WHERE{\n",
     "dbr:"+subGenre+" dbo:derivative ?genreDerives.",
@@ -121,9 +121,9 @@ function setDerives(subGenre) {
 
 function setSubGenre(subGenre) {
   var query = [
-    "PREFIX dbo: <http://dbpedia.org/ontology/>",
-    "PREFIX dbr: <http://dbpedia.org/resource/>",
-    "PREFIX foaf: <http://xmlns.com/foaf/0.1/>",
+    "PREFIX dbo: <https://dbpedia.org/ontology/>",
+    "PREFIX dbr: <https://dbpedia.org/resource/>",
+    "PREFIX foaf: <https://xmlns.com/foaf/0.1/>",
 
     "select distinct ?name ?subGenre ?wikiLink WHERE{\n",
     "dbr:"+subGenre+" dbo:musicSubgenre ?subGenre.",
@@ -170,9 +170,9 @@ function setSubGenre(subGenre) {
 function setOrigin(subGenre) {
   var query = [
 
-    "PREFIX dbo: <http://dbpedia.org/ontology/>",
-    "PREFIX dbr: <http://dbpedia.org/resource/>",
-    "PREFIX foaf: <http://xmlns.com/foaf/0.1/>",
+    "PREFIX dbo: <https://dbpedia.org/ontology/>",
+    "PREFIX dbr: <https://dbpedia.org/resource/>",
+    "PREFIX foaf: <https://xmlns.com/foaf/0.1/>",
 
     "select distinct ?origine ?name ?wikiLink WHERE{",
     "  dbr:" + subGenre + " dbo:stylisticOrigin ?origine.",
@@ -219,9 +219,9 @@ function setOrigin(subGenre) {
 function setDate(subGenre) {
   var query = [
 
-    "PREFIX dbo: <http://dbpedia.org/ontology/>",
-    "PREFIX dbr: <http://dbpedia.org/resource/>",
-    "PREFIX foaf: <http://xmlns.com/foaf/0.1/>",
+    "PREFIX dbo: <https://dbpedia.org/ontology/>",
+    "PREFIX dbr: <https://dbpedia.org/resource/>",
+    "PREFIX foaf: <https://xmlns.com/foaf/0.1/>",
 
     "select distinct ?date  WHERE{",
     "  dbr:" + subGenre + " dbp:culturalOrigins ?date.",
@@ -243,9 +243,9 @@ function setDate(subGenre) {
 
 function setAbstract(subGenre) {
   var query = [
-    "PREFIX dbo: <http://dbpedia.org/ontology/>",
-    "PREFIX dbr: <http://dbpedia.org/resource/>",
-    "PREFIX foaf: <http://xmlns.com/foaf/0.1/>",
+    "PREFIX dbo: <https://dbpedia.org/ontology/>",
+    "PREFIX dbr: <https://dbpedia.org/resource/>",
+    "PREFIX foaf: <https://xmlns.com/foaf/0.1/>",
 
     "select distinct ?abstract WHERE{",
     "  dbr:" + subGenre + " dbo:abstract ?abstract	.",
@@ -256,7 +256,7 @@ function setAbstract(subGenre) {
   sparqlQuery(query).then(function (data) {
     if (data.results.bindings.length > 0) {
       $.ajax({
-          url: 'http://api.dbpedia-spotlight.org/en/annotate',
+          url: 'https://api.dbpedia-spotlight.org/en/annotate',
           data: {text: data.results.bindings[0].abstract.value, confidence: 0.9},
           success: function (data) {
             let abstractWithLink = data.getElementsByTagName("div")[0];
@@ -274,9 +274,9 @@ function setAbstract(subGenre) {
 
 function setInstrument(subGenre) {
   var query = [
-    "PREFIX dbo: <http://dbpedia.org/ontology/>",
-    "PREFIX dbr: <http://dbpedia.org/resource/>",
-    "PREFIX foaf: <http://xmlns.com/foaf/0.1/>",
+    "PREFIX dbo: <https://dbpedia.org/ontology/>",
+    "PREFIX dbr: <https://dbpedia.org/resource/>",
+    "PREFIX foaf: <https://xmlns.com/foaf/0.1/>",
 
     "select distinct ?name ?link WHERE{\n",
     "dbr:" + subGenre + " dbo:instrument ?instrument.",
@@ -303,9 +303,9 @@ function setInstrument(subGenre) {
 
 function setArtist(subGenre) {
   var query = [
-    "PREFIX dbo: <http://dbpedia.org/ontology/>",
-    "PREFIX dbr: <http://dbpedia.org/resource/>",
-    "PREFIX foaf: <http://xmlns.com/foaf/0.1/>",
+    "PREFIX dbo: <https://dbpedia.org/ontology/>",
+    "PREFIX dbr: <https://dbpedia.org/resource/>",
+    "PREFIX foaf: <https://xmlns.com/foaf/0.1/>",
 
     "select distinct ?link ?name where {\n",
     "?a dbo:genre dbr:" + subGenre + ".",
@@ -336,7 +336,7 @@ function setArtist(subGenre) {
 function sparqlQuery(query) {
   return new Promise(function (resolve, reject) {
 
-    let url = "http://dbpedia.org/sparql";
+    let url = "https://dbpedia.org/sparql";
     const queryUrl = url + "?query=" + encodeURIComponent(query) + "&format=json";
     //console.log(queryUrl);
     $.ajax({
@@ -357,7 +357,7 @@ function sparqlQuery(query) {
 
 
 function getResourceFromLink(uri) {
-  var a = uri.split("http://dbpedia.org/resource/");
+  var a = uri.split("https://dbpedia.org/resource/");
   if(a.length == 2){
     return a[1];
   }

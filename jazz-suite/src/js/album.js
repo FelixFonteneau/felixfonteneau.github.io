@@ -26,9 +26,9 @@ $(document).ready(function () {
 
 function setName(album) {
   var query = [
-    "PREFIX dbo: <http://dbpedia.org/ontology/>",
-    "PREFIX dbr: <http://dbpedia.org/resource/>",
-    "PREFIX foaf: <http://xmlns.com/foaf/0.1/>",
+    "PREFIX dbo: <https://dbpedia.org/ontology/>",
+    "PREFIX dbr: <https://dbpedia.org/resource/>",
+    "PREFIX foaf: <https://xmlns.com/foaf/0.1/>",
 
     "select distinct ?name where {",
     "dbr:" + album + " foaf:name ?name.",
@@ -48,9 +48,9 @@ function setName(album) {
 
 function setGenre(album) {
   var query = [
-    "PREFIX dbo: <http://dbpedia.org/ontology/>",
-    "PREFIX dbr: <http://dbpedia.org/resource/>",
-    "PREFIX foaf: <http://xmlns.com/foaf/0.1/>",
+    "PREFIX dbo: <https://dbpedia.org/ontology/>",
+    "PREFIX dbr: <https://dbpedia.org/resource/>",
+    "PREFIX foaf: <https://xmlns.com/foaf/0.1/>",
 
     "select distinct ?name ?genre WHERE{\n",
     "dbr:" + album + " dbo:genre ?genre.",
@@ -73,9 +73,9 @@ function setGenre(album) {
 function setYear(album) {
   var query = [
 
-    "PREFIX dbo: <http://dbpedia.org/ontology/>",
-    "PREFIX dbr: <http://dbpedia.org/resource/>",
-    "PREFIX foaf: <http://xmlns.com/foaf/0.1/>",
+    "PREFIX dbo: <https://dbpedia.org/ontology/>",
+    "PREFIX dbr: <https://dbpedia.org/resource/>",
+    "PREFIX foaf: <https://xmlns.com/foaf/0.1/>",
 
 
     "select distinct (year(xsd:date(?year)) as ?year) where {",
@@ -95,9 +95,9 @@ function setYear(album) {
 
 function setAbstract(album) {
   var query = [
-    "PREFIX dbo: <http://dbpedia.org/ontology/>",
-    "PREFIX dbr: <http://dbpedia.org/resource/>",
-    "PREFIX foaf: <http://xmlns.com/foaf/0.1/>",
+    "PREFIX dbo: <https://dbpedia.org/ontology/>",
+    "PREFIX dbr: <https://dbpedia.org/resource/>",
+    "PREFIX foaf: <https://xmlns.com/foaf/0.1/>",
 
     "select distinct ?abstract WHERE{",
     "  dbr:" + album + " dbo:abstract ?abstract	.",
@@ -108,7 +108,7 @@ function setAbstract(album) {
   sparqlQuery(query).then(function (data) {
       if (data.results.bindings.length > 0) {
         $.ajax({
-            url: 'http://api.dbpedia-spotlight.org/en/annotate',
+            url: 'https://api.dbpedia-spotlight.org/en/annotate',
             data: {text: data.results.bindings[0].abstract.value, confidence: 0.9},
             success: function (data) {
               let abstractWithLink = data.getElementsByTagName("div")[0];
@@ -126,9 +126,9 @@ function setAbstract(album) {
 
 function setCover(album) {
   var query = [
-    "PREFIX dbo: <http://dbpedia.org/ontology/>",
-    "PREFIX dbr: <http://dbpedia.org/resource/>",
-    "PREFIX foaf: <http://xmlns.com/foaf/0.1/>",
+    "PREFIX dbo: <https://dbpedia.org/ontology/>",
+    "PREFIX dbr: <https://dbpedia.org/resource/>",
+    "PREFIX foaf: <https://xmlns.com/foaf/0.1/>",
 
     "select distinct ?cover where {",
     "dbr:" + album + " dbp:cover ?cover.",
@@ -163,9 +163,9 @@ function setCover(album) {
 
 function setArtist(album) {
   var query = [
-    "PREFIX dbo: <http://dbpedia.org/ontology/>",
-    "PREFIX dbr: <http://dbpedia.org/resource/>",
-    "PREFIX foaf: <http://xmlns.com/foaf/0.1/>",
+    "PREFIX dbo: <https://dbpedia.org/ontology/>",
+    "PREFIX dbr: <https://dbpedia.org/resource/>",
+    "PREFIX foaf: <https://xmlns.com/foaf/0.1/>",
 
     "select distinct ?artistLink ?artistName where {",
     "dbr:" + album + " dbo:artist ?artistLink.",
@@ -183,9 +183,9 @@ function setArtist(album) {
 
 function setLabel(album) {
   var query = [
-    "PREFIX dbo: <http://dbpedia.org/ontology/>",
-    "PREFIX dbr: <http://dbpedia.org/resource/>",
-    "PREFIX foaf: <http://xmlns.com/foaf/0.1/>",
+    "PREFIX dbo: <https://dbpedia.org/ontology/>",
+    "PREFIX dbr: <https://dbpedia.org/resource/>",
+    "PREFIX foaf: <https://xmlns.com/foaf/0.1/>",
 
     "select distinct ?labelLink ?labelName where {",
     "dbr:" + album + " dbo:recordLabel ?labelLink.",
@@ -204,9 +204,9 @@ function setLabel(album) {
 
 function setPreviousWork(album) {
   var query = [
-    "PREFIX dbo: <http://dbpedia.org/ontology/>",
-    "PREFIX dbr: <http://dbpedia.org/resource/>",
-    "PREFIX foaf: <http://xmlns.com/foaf/0.1/>",
+    "PREFIX dbo: <https://dbpedia.org/ontology/>",
+    "PREFIX dbr: <https://dbpedia.org/resource/>",
+    "PREFIX foaf: <https://xmlns.com/foaf/0.1/>",
 
     "select distinct ?previousWorkLink ?previousWorkName where {",
     "dbr:" + album + " dbo:previousWork ?previousWorkLink.",
@@ -231,9 +231,9 @@ function setPreviousWork(album) {
 
 function setSubsequentWork(album) {
   var query = [
-    "PREFIX dbo: <http://dbpedia.org/ontology/>",
-    "PREFIX dbr: <http://dbpedia.org/resource/>",
-    "PREFIX foaf: <http://xmlns.com/foaf/0.1/>",
+    "PREFIX dbo: <https://dbpedia.org/ontology/>",
+    "PREFIX dbr: <https://dbpedia.org/resource/>",
+    "PREFIX foaf: <https://xmlns.com/foaf/0.1/>",
 
     "select distinct ?subWorkLink ?subWorkName where {",
     "dbr:" + album + " dbo:subsequentWork ?subWorkLink.",
@@ -259,7 +259,7 @@ function setSubsequentWork(album) {
 function sparqlQuery(query) {
   return new Promise(function (resolve, reject) {
 
-    let url = "http://dbpedia.org/sparql";
+    let url = "https://dbpedia.org/sparql";
     const queryUrl = url + "?query=" + encodeURIComponent(query) + "&format=json";
     //console.log(queryUrl);
     $.ajax({
@@ -279,7 +279,7 @@ function sparqlQuery(query) {
 
 
 function getRessourceLink(uri) {
-  var a = uri.split("http://dbpedia.org/resource/");
+  var a = uri.split("https://dbpedia.org/resource/");
   console.log(a);
   if (a.length == 2) {
     return a[1];

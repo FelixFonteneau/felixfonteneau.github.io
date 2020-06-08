@@ -1,9 +1,9 @@
 let autoCompleteResult;
 
 const querySubGenre = [
-  "PREFIX dbo: <http://dbpedia.org/ontology/>",
-  "PREFIX dbr: <http://dbpedia.org/resource/>",
-  "PREFIX foaf: <http://xmlns.com/foaf/0.1/>",
+  "PREFIX dbo: <https://dbpedia.org/ontology/>",
+  "PREFIX dbr: <https://dbpedia.org/resource/>",
+  "PREFIX foaf: <https://xmlns.com/foaf/0.1/>",
 
   "select distinct ?name ?query where {",
   "dbr:Jazz dbo:musicSubgenre ?query.",
@@ -12,8 +12,8 @@ const querySubGenre = [
 ].join(" ");
 
 const queryArtists = [
-  "PREFIX dbo: <http://dbpedia.org/ontology/>",
-  "PREFIX dbr: <http://dbpedia.org/resource/>",
+  "PREFIX dbo: <https://dbpedia.org/ontology/>",
+  "PREFIX dbr: <https://dbpedia.org/resource/>",
 
   "select distinct ?name ?query where {",
   "{",
@@ -33,9 +33,9 @@ const queryArtists = [
 ].join(" ");
 
 const queryAlbums = [
-  "PREFIX dbo: <http://dbpedia.org/ontology/>",
-  "PREFIX dbr: <http://dbpedia.org/resource/>",
-  "PREFIX foaf: <http://xmlns.com/foaf/0.1/>",
+  "PREFIX dbo: <https://dbpedia.org/ontology/>",
+  "PREFIX dbr: <https://dbpedia.org/resource/>",
+  "PREFIX foaf: <https://xmlns.com/foaf/0.1/>",
 
   "select distinct ?query ?name where {",
   "?query rdf:type dbo:Album.",
@@ -171,7 +171,7 @@ function refreshAutocomplete(data) {
 function sparqlQuery(query) {
   return new Promise(function (resolve, reject) {
 
-    let url = "http://dbpedia.org/sparql";
+    let url = "https://dbpedia.org/sparql";
     const queryUrl = url + "?query=" + encodeURIComponent(query) + "&format=json";
     $.ajax({
       dataType: "json",

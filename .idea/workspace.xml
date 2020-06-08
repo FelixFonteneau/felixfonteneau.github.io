@@ -19,7 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1fdc923e-9052-40c9-a3b0-bfb3c77b7556" name="Default Changelist" comment="add project, change background, add web sementique" />
+    <list default="true" id="1fdc923e-9052-40c9-a3b0-bfb3c77b7556" name="Default Changelist" comment="add project, change background, add web sementique">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jazz-suite/src/js/album.js" beforeDir="false" afterPath="$PROJECT_DIR$/jazz-suite/src/js/album.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jazz-suite/src/js/artist.js" beforeDir="false" afterPath="$PROJECT_DIR$/jazz-suite/src/js/artist.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jazz-suite/src/js/genre.js" beforeDir="false" afterPath="$PROJECT_DIR$/jazz-suite/src/js/genre.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jazz-suite/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/jazz-suite/src/js/main.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,6 +75,7 @@
       <workItem from="1591376407862" duration="9661000" />
       <workItem from="1591433944672" duration="1817000" />
       <workItem from="1591521461498" duration="26000" />
+      <workItem from="1591646137416" duration="2110000" />
     </task>
     <task id="LOCAL-00001" summary="change image">
       <created>1587759267035</created>
@@ -168,14 +176,22 @@
     <option name="LAST_COMMIT_MESSAGE" value="add project, change background, add web sementique" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="778" y="446" width="402" height="227" key="#Chrome_Settings" timestamp="1591649895689">
+      <screen x="60" y="27" width="1860" height="1053" />
+    </state>
+    <state x="778" y="446" width="402" height="227" key="#Chrome_Settings/60.27.1860.1053@60.27.1860.1053" timestamp="1591649895689" />
+    <state x="757" y="337" width="455" height="439" key="#Web_Browsers" timestamp="1591649904371">
+      <screen x="60" y="27" width="1860" height="1053" />
+    </state>
+    <state x="757" y="337" width="455" height="439" key="#Web_Browsers/60.27.1860.1053@60.27.1860.1053" timestamp="1591649904371" />
     <state x="659" y="355" width="646" height="417" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591382246240">
       <screen x="60" y="27" width="1860" height="1053" />
     </state>
     <state x="659" y="355" width="646" height="417" key="#com.intellij.fileTypes.FileTypeChooser/60.27.1860.1053@60.27.1860.1053" timestamp="1591382246240" />
-    <state x="773" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1591521484061">
+    <state x="773" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1591649853730">
       <screen x="60" y="27" width="1860" height="1053" />
     </state>
-    <state x="773" y="311" width="424" height="491" key="FileChooserDialogImpl/60.27.1860.1053@60.27.1860.1053" timestamp="1591521484061" />
+    <state x="773" y="311" width="424" height="491" key="FileChooserDialogImpl/60.27.1860.1053@60.27.1860.1053" timestamp="1591649853730" />
     <state x="481" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1591376394054">
       <screen x="64" y="27" width="1856" height="1053" />
     </state>
