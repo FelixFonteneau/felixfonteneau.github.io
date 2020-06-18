@@ -21,11 +21,14 @@
   <component name="ChangeListManager">
     <list default="true" id="1fdc923e-9052-40c9-a3b0-bfb3c77b7556" name="Default Changelist" comment="add project, change background, add web sementique">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< refs/remotes/origin/master
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jazz-suite/src/js/album.js" beforeDir="false" afterPath="$PROJECT_DIR$/jazz-suite/src/js/album.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jazz-suite/src/js/artist.js" beforeDir="false" afterPath="$PROJECT_DIR$/jazz-suite/src/js/artist.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jazz-suite/src/js/genre.js" beforeDir="false" afterPath="$PROJECT_DIR$/jazz-suite/src/js/genre.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jazz-suite/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/jazz-suite/src/js/main.js" afterDir="false" />
+=======
+>>>>>>> update mines
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +51,14 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+<<<<<<< refs/remotes/origin/master
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../mines" />
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+>>>>>>> update mines
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -70,12 +80,20 @@
       <workItem from="1587758586480" duration="719000" />
       <workItem from="1587807883767" duration="13000" />
       <workItem from="1587916273163" duration="4744000" />
+<<<<<<< refs/remotes/origin/master
       <workItem from="1587975954822" duration="3070000" />
       <workItem from="1591376344735" duration="49000" />
       <workItem from="1591376407862" duration="9661000" />
       <workItem from="1591433944672" duration="1817000" />
       <workItem from="1591521461498" duration="26000" />
       <workItem from="1591646137416" duration="2110000" />
+=======
+      <workItem from="1587975954822" duration="3100000" />
+      <workItem from="1588156380738" duration="359000" />
+      <workItem from="1589290126323" duration="521000" />
+      <workItem from="1592168032417" duration="31000" />
+      <workItem from="1592518026579" duration="437000" />
+>>>>>>> update mines
     </task>
     <task id="LOCAL-00001" summary="change image">
       <created>1587759267035</created>
